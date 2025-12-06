@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# Baller - Football App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Baller is a modern football streaming application built with React Native and Expo, providing live match streaming, match statistics, and team information for football enthusiasts.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Live football match streaming
+- Team and player statistics
+- League tables and standings
+- Match schedules and fixtures
+- Live match commentary and updates
 
+## Prerequisites
+
+- Node.js (v16 or later)
+- npm or yarn
+- Expo CLI
+
+## Getting Started
+
+1. Clone the repository
    ```bash
-   npm install
+   git clone <repository-url>
+   cd baller
    ```
 
-2. Start the app
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
+3. Start the development server
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Running the App
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+You can run the app on:
+- iOS Simulator (macOS only)
+- Android Emulator
+- Physical device using Expo Go app
+- Web browser
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Project Structure
 
-## Get a fresh project
+- `/app` - Main application code with file-based routing
+- `/components` - Reusable UI components
+- `/assets` - Static assets (images, fonts, etc.)
+- `/utils` - Utility functions and helpers
+- `/types` - TypeScript type definitions
 
-When you're ready, run:
+## Available Scripts
 
-```bash
-npm run reset-project
-```
+- `npm start` - Start the development server
+- `npm run web` - Run the web version
+- `npm run android` - Run on Android
+- `npm run ios` - Run on iOS
+- `npm test` - Run tests
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Contributing
 
-## Learn more
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-To learn more about developing your project with Expo, look at the following resources:
+## License
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License - see the LICENSE file for details.
